@@ -1,5 +1,5 @@
 <?php
-namespace myProject;
+namespace librarySystem;
 
 if(1) {
 	ini_set('display_errors', 'On');	// Debug

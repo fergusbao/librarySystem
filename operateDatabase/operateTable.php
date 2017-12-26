@@ -1,5 +1,5 @@
 <?php
-namespace myProject;
+namespace librarySystem\operateDatabase;
 include 'connectDatabase.php';
 
 class Operation {
