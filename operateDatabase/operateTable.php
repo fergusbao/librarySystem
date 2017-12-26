@@ -1,6 +1,6 @@
 <?php
-namespace librarySystem\operateDatabase;
-include 'connectDatabase.php';
+
+include '../connectDatabase.php';
 
 class Operation {
 	

@@ -1,6 +1,4 @@
 <?php
-namespace librarySystem;
-
 if(1) {
 	ini_set('display_errors', 'On');	// Debug
 	error_reporting(E_ALL | E_STRICT);
