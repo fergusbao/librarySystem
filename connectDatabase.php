@@ -21,7 +21,7 @@ class Database {
 // 				die("Connection failed: " . $conn->connect_error);
 			// } 
 			self::$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-			echo "Connection Successful To Database\n";
+			echo "Connection Successful To Database" . "<br>";
 		} 
 		catch (PDOException $e) {
 			//echo "Connection Error To Database: " . $e->getMessage() . "<hr>";
