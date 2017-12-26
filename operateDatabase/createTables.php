@@ -10,6 +10,6 @@ if(file_exists($file_path)) {
 	$sql = fread($fp,filesize($file_path));
 	//echo $str = str_replace("\r\n","<br />",$str);
 
-	$object = new Create($sql);
+	$object = new Operation($sql);
 }
 ?>
