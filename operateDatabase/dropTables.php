@@ -1,11 +1,6 @@
 <?php
 ini_set('display_errors', 'On');  
 error_reporting(E_ALL);
-<<<<<<< HEAD
-
-include 'operateTable.php';
-=======
->>>>>>> 65b99929690d0d14f82079611c60c523e247c9ae
 
 include 'operateTable.php';
 
