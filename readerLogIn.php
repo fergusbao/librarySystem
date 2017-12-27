@@ -18,12 +18,11 @@
 	<br>
 	<br>
 	<br>
-	<center><h3>Welcome Reader!</h3></center>
-	<br>
-	<br>
+	<center><h2>Welcome Reader!</h2></center>
 	<br>
 	<br>
 	<center><p1 style="font-size: 30px">Log In</p1><center>
+	<br>
 	<br>
 	<br>
 	<form action="welcome.php" method="post">
