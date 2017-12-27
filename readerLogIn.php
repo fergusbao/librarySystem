@@ -18,21 +18,16 @@
 	<br>
 	<br>
 	<br>
+	<center><h3>Welcome Reader!</h3></center>
+	<br>
+	<br>
+	<br>
 	<br>
 	<center><p1 style="font-size: 30px">Log In</p1><center>
 	<br>
 	<br>
-
-	<form action="readerLogIn.php" method="post">
-		<center><input type="submit" style="width:200px; height:100px; font-family:verdana; font-size: 300px" value="    I am a reader    " name="reader"></center>	
-	</form>
-
-	<br>
-
-	<form action="administrator.php" method="post">
-		<center><input type="submit" style="width:200px; height:100px; font-family:verdana; font-size: 300px" value="I am an administrator" name="administrator"></center>
-	</form>
-
+	<form action="welcome.php" method="post">
+	ReaderID: <input type="text" name="readerID">
+	<input type="submit">
 </body>
 </html>
-
