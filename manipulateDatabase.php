@@ -8,7 +8,7 @@ if(1) {
 }
 
 class ManipulateDatabase {
-	private var $sql;
+	var $sql;
 	public function __construct($sql) {
 		$this->sql = $sql;
 	}
