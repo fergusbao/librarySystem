@@ -10,7 +10,10 @@
 </head>
 
 <body>
+
 <?php
+include 'manipulateDatabase.php';
+
 // define variable readerID and set to empty values
 $readerID = "";
 
@@ -47,7 +50,10 @@ htmlspecialchars($_SERVER["PHP_SELF"]);?>" >
 </form>
 
 <?php
-echo $readerID
+$sql = "SELECT READERID FROM LIBRARY_READER WHERE READERID = $readerID";
+$manipulateDB = new manipulateDatabase($sql);
+$result = $manipulateDB->executeSQL();
+echo $result;
 ?>
 
 </body>
