@@ -16,8 +16,6 @@
 	<br>
 	<center><h1>The City Library System</h1></center>
 	<br>
-	<br>
-	<br>
 	<center><h2>Welcome Reader!</h2></center>
 	<br>
 	<br>
