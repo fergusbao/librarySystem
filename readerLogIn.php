@@ -16,7 +16,7 @@
 	<br>
 	<center><h1>The City Library System</h1></center>
 	<br>
-	<center><h2>Welcome Reader!</h2></center>
+	<center><h2 style="color: #ff0000">Welcome Reader!</h2></center>
 	<br>
 	<br>
 	<center><p1 style="font-size: 30px">Log In</p1><center>
