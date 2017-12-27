@@ -1,6 +1,6 @@
 <?php
 
-include '../connectDatabase.php';
+include '../../connectDatabase.php';
 
 class Operation {
 	
