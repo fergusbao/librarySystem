@@ -2,9 +2,9 @@
 ini_set('display_errors', 'On');  
 error_reporting(E_ALL);
 
-include 'operateTable1.php';
+include 'operateTable.php';
 
-$file_path = "dropTables.sql";
+$file_path = "dropTables1.sql";
 if(file_exists($file_path)) {
 	$fp = fopen($file_path, "r");
 	$sql = fread($fp,filesize($file_path));
