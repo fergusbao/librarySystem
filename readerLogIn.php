@@ -26,5 +26,11 @@
 	<form action="welcome.php" method="post">
 	ReaderID: <input type="text" name="readerID">
 	<input type="submit">
+
+	<?php
+	$readerID = $_POST["readerID"]
+	echo $readerID
+	?>
+	
 </body>
 </html>
