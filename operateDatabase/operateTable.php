@@ -9,7 +9,6 @@ class Operation {
     }
 
 	public function operateTable($sql) {
-		//$conn;
 		try {
 		     $conn = Database::connect();
 		     $conn->exec($sql);
