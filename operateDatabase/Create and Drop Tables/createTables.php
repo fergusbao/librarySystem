@@ -2,6 +2,7 @@
 ini_set('display_errors', 'On');  
 error_reporting(E_ALL);
 
+
 include 'operateTable.php';
 
 $file_path = "createTables.sql";

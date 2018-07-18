@@ -19,4 +19,5 @@ class Operation {
 		}
 	}
 }
+
 ?>
